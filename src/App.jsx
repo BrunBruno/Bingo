@@ -104,7 +104,7 @@ function App() {
   const checkIfAllMarked = () => {
     if (selectedItems.every((item) => markedItems.includes(item))) {
       setIsBingo(true);
-      alert("!!! BINGO KURWA !!!");
+      alert("!!! BINGO !!!");
     }
   };
 
